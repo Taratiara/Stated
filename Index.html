@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>STATED.</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com/" >
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <script 
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="head-container" id="home">
+                <div class="navbar">
+                    <div class="home-icon">
+                        <p id="logo">STATED.</p>
+                    </div>
+                    <div class="navbar-right">
+                            <a class="active" href="#home">Home</a>
+                            <a href="#properties">Properties</a>
+                            <a href="#agents">Agents</a>
+                            <a href="#about">About</a>
+                            <a href="#news">News</a>
+                            <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    window.addEventListener("scroll", function(){
+                        var header = document.querySelector("header");
+                        header.classList.toggle("sticky", window.scrollY > 0);
+                    })
+                </script>
+
+                <div id="hero">
+                    <h1 class="buy">Buy and sell real estate<br>properties</h1>
+                    <div class="hero-p">
+                        <p class="buy">Lorem ipsum dolor sit amet consectectur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="how-it-works">
+            <div class="how-works">
+                <h1 class="how">How It Works</h1>
+            </div>
+            <div class="works">
+                <div class="house">
+                    <ion-icon name="home" class="icon-big"></ion-icon>
+                    <h3>Find a Property.</h3>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div class="buy">
+                    <ion-icon name="wallet" class="icon-big"></ion-icon>
+                    <h3>Buy a Property.</h3>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div class="invest">
+                    <ion-icon name="stats-chart" class="icon-big"></ion-icon>
+                    <h3>Investing.</h3>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="properties" id="properties">
+            <div class="titles">
+                <div class="prop-title">
+                    <h1 class="titles">Properties</h1>
+                </div>
+                <div class="buttons">
+                    <button class="button prev"><h2>Previous</h2></button>/
+                    <button class="button next"><h2>Next</h2></button>
+                </div>
+            </div>
+
+            <div class="houses">
+                <div class="house1">
+                    <img src="images/property_1.jpg">
+                    <h3>$3,400,000</h3>
+                    <p class="specs" style="padding-left: 10px;">6 beds</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4 baths</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4,250 sqft.</p>
+                    <p class="address">480 12th, Unit 14, San Francisco, CA</p>
+                </div>
+
+                <div class="house2">
+                    <img src="images/property_2.jpg">
+                    <h3>$3,400,000</h3>
+                    <p class="specs" style="padding-left: 10px;">6 beds</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4 baths</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4,250 sqft.</p>
+                    <p class="address">480 12th, Unit 14, San Francisco, CA</p>
+                </div>
+
+                <div class="house3">
+                    <img src="images/property_3.jpg">
+                    <h3>$3,400,000</h3>
+                    <p class="specs" style="padding-left: 10px;">6 beds</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4 baths</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4,250 sqft.</p>
+                    <p class="address">480 12th, Unit 14, San Francisco, CA</p>
+                </div>
+
+                <div class="house4">
+                    <img src="images/property_4.jpg">
+                    <h3>$3,400,000</h3>
+                    <p class="specs" style="padding-left: 10px;">6 beds</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4 baths</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4,250 sqft.</p>
+                    <p class="address">480 12th, Unit 14, San Francisco, CA</p>
+                </div>
+
+                <div class="house1">
+                    <img src="images/property_1.jpg">
+                    <h3>$3,400,000</h3>
+                    <p class="specs" style="padding-left: 10px;">6 beds</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4 baths</p>
+                    <p class="specs">|</p>
+                    <p class="specs">4,250 sqft.</p>
+                    <p class="address">480 12th, Unit 14, San Francisco, CA</p>
+                </div>
+            </div>
+            <div class="button">
+                <a href="#" class="btn btn-full">View All Property Listings</a>
+            </div>
+        </section>
+
+        <section class="agents" id="agents">
+            <div class="titles">
+                <h1 class="titles agents">Agents</h1>
+            </div>
+            <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+
+            <div class="gallery">
+                <div class="person">
+                    <img src="images/person_1.jpg">
+                    <h2 class="agents">Kaiara Spencer</h2>
+                    <p class="agents">Real Estate Agent</p>
+                </div>
+                <div class="person">
+                    <img src="images/person_2.jpg">
+                    <h2 class="agents">Dave Simpson</h2>
+                    <p class="agents">Real Estate Agent</p>
+                </div>
+                <div class="person">
+                    <img src="images/person_3.jpg">
+                    <h2 class="agents">Ben Thompson</h2>
+                    <p class="agents">Real Estate Agent</p>
+                </div>
+                <div class="person">
+                    <img src="images/person_4.jpg">
+                    <h2 class="agents">Kyla Stewart</h2>
+                    <p class="agents">Real Estate Agent</p>
+                </div>
+                <div class="person">
+                    <img src="images/person_5.jpg">
+                    <h2 class="agents">Rich Moffatt</h2>
+                    <p class="agents">Real Estate Agent</p>
+                </div>
+                <div class="person">
+                    <img src="images/person_6.jpg">
+                    <h2 class="agents">Stuart Redman</h2>
+                    <p class="agents">Real Estate Agent</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="best">
+            <div class="best-image">
+                <img src="images/property_1.jpg">
+            </div>
+            <div class="best-info">
+                <h1 class="titles best">We Are the Best Real Estate Company</h1>
+                <p class="best-head">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="best">Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+                <ul>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                </ul>
+                <div class="button2">
+                    <a href="#" class="btn btn-full learn-first">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="services-head">
+                <h1 class="titles services">Services</h1>
+            </div>
+
+            <div class="services">
+                <div class="service-items">
+                    <div class="icon">
+                        <ion-icon name="home" class="icon-big"></ion-icon>
+                    </div>
+                    <div class="services-info">
+                        <p class="services-names">Search Property</p>
+                        <p class="services-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#" class="learn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-items">
+                    <div class="icon">
+                        <ion-icon name="wallet" class="icon-big"></ion-icon>
+                    </div>
+                    <div class="services-info">
+                        <p class="services-names">Buy Property</p>
+                        <p class="services-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#" class="learn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-items">
+                    <div class="icon">
+                        <ion-icon name="stats-chart" class="icon-big"></ion-icon>
+                    </div>
+                    <div class="services-info">
+                        <p class="services-names">Investing</p>
+                        <p class="services-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#" class="learn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-items">
+                    <div class="icon">
+                        <ion-icon name="business" class="icon-big"></ion-icon>
+                    </div>
+                    <div class="services-info">
+                        <p class="services-names">List a Property</p>
+                        <p class="services-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#" class="learn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-items">
+                    <div class="icon">
+                        <ion-icon name="search" class="icon-big"></ion-icon>
+                    </div>
+                    <div class="services-info">
+                        <p class="services-names">Property Locator</p>
+                        <p class="services-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#" class="learn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-items">
+                    <div class="icon">
+                        <ion-icon name="phone-portrait" class="icon-big"></ion-icon>
+                    </div>
+                    <div class="services-info">
+                        <p class="services-names">Stated Apps</p>
+                        <p class="services-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#" class="learn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h1 class="titles test">What Our Clients Are Saying</h1>
+            <div class="slides">
+                <div class="people">
+                    <h3 class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</h3>
+                    <div class="citation">
+                        <img src="images/person_7.jpg">
+                        <h3 class="test-names">Nick Andros</h3>
+                    </div>
+                </div>
+
+                <div class="people">
+                    <h3 class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</h3>
+                    <div class="citation">
+                        <img src="images/person_5.jpg">
+                        <h3 class="test-names">Larry Underwood</h3>
+                    </div>
+                </div>
+
+                <div class="people">
+                    <h3 class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</h3>
+                    <div class="citation">
+                        <img src="images/person_8.jpg">
+                        <h3 class="test-names">Fran Goldsmith</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-buttons">
+                <h1 class="previous"><</h1>
+                <h1 class="next-slide">></h1>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h1 class="titles contact">Contact Us</h1>
+
+            <div class="contact-body">
+                <div class="contact-form" id="form-container">
+                    <h3 class="title">Contact Form</h3>
+
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Write your message here.."></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3 class="info">Address</h3>
+                    <p class="address-contact">20377 Evergreen Terrace Mountain View, California, USA</p>
+                    <h3 class="phone">Phone</h3>
+                    <p class="phone">232-232-2323</p>
+                    <h3 class="email-address">Email Address</h3>
+                    <p class="phone">ouremail@domain.com</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="links">
+                <div class="about">
+                    <h2 class="about-title">About Stated</h2>
+                    <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                </div>
+                <div class="blank"></div>
+                <div class="quick">
+                    <h2 class="about-title">Quick Links</h2>
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="footer-subscribe">
+                    <h2 class="about-title">Subscribe to our Newsletter</h2>
+                    <div class="box">
+                        <input type="email" id="newsletter" placeholder="Enter Email">
+                        <a href="#">Send</a>
+                    </div>
+                    <h2 class="about-title">Follow Us</h2>
+                    <div class="logos">
+                        <ion-icon name="logo-facebook" class="socials"></ion-icon>
+                        <ion-icon name="logo-twitter" class="socials"></ion-icon>
+                        <ion-icon name="logo-instagram" class="socials"></ion-icon>
+                        <ion-icon name="logo-linkedin" class="socials"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright &copy; 2019 All rights reserved | This template is made with &hearts; by Colorlib</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+    </body>
+</html>
